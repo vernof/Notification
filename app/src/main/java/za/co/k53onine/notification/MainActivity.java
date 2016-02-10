@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         notification.setSmallIcon(R.drawable.dirty);
         notification.setTicker("This is the ticker");
         notification.setWhen(System.currentTimeMillis());
-        notification.setContentTitle("Here is the title");
+        notification.setContentTitle("Here is the title and something");
         notification.setContentText("Im the body of your notification");
 
         Intent intent = new Intent(this, MainActivity.class);
